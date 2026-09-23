@@ -1,0 +1,16 @@
+{
+  "traveler01": {
+    "username": "traveler01",
+    "pwHash": "0db6aa5ad7a36d81420df3808e209326:ceaca29b8f97af86593d8dd386d4f5a51d60a923cc2124a0ebcb97b9e4b9f1cbbaeb21ded61cb5009d04306f4b553fcf4f32bec1f855776db3b81d1eabe7a59e",
+    "createdAt": "2026-09-23T01:10:57.424Z",
+    "lastLogin": "2026-09-23T01:10:57.956Z",
+    "loginCount": 1
+  },
+  "linktest": {
+    "username": "linktest",
+    "pwHash": "449e5ea780edefceb09a43e9ebbd4c1b:885ba49dbb026b4b03ec4c06e855bf86941f727108fda7fc15e90250d804350e5e708c4c0988a1ef82ccc77e42b7ada266d6a69146b7b7704f91fa92581f9e8f",
+    "createdAt": "2026-09-23T01:46:12.884Z",
+    "lastLogin": "2026-09-23T01:46:13.157Z",
+    "loginCount": 1
+  }
+}

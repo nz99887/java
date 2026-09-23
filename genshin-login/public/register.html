@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>提瓦特 · 注册</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <canvas id="fx"></canvas>
+    <div class="glow"></div>
+    <span class="link-status" id="linkStatus">连接中…</span>
+
+    <!-- 七元素主题切换 -->
+    <div class="theme-switch" title="切换元素主题">
+      <button class="dot" data-theme="anemo"   style="background:#9be8a8;color:#9be8a8" title="风"></button>
+      <button class="dot" data-theme="geo"     style="background:#e8c87a;color:#e8c87a" title="岩"></button>
+      <button class="dot" data-theme="electro" style="background:#c4a0ff;color:#c4a0ff" title="雷"></button>
+      <button class="dot" data-theme="dendro"  style="background:#bfe86a;color:#bfe86a" title="草"></button>
+      <button class="dot" data-theme="hydro"   style="background:#7ec8ff;color:#7ec8ff" title="水"></button>
+      <button class="dot" data-theme="pyro"    style="background:#ff9a5a;color:#ff9a5a" title="火"></button>
+      <button class="dot" data-theme="cryo"    style="background:#cfefff;color:#cfefff" title="冰"></button>
+      <button class="vision-toggle" title="神之眼装饰">
+        <svg viewBox="0 0 24 24" width="12" height="12"><path d="M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z" fill="currentColor"/></svg>
+      </button>
+    </div>
+
+    <div class="vision-deco" aria-hidden="true">
+      <svg viewBox="0 0 120 120">
+        <ellipse cx="60" cy="60" rx="42" ry="54" fill="none" stroke="currentColor" stroke-width="3"/>
+        <ellipse cx="60" cy="60" rx="31" ry="41" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+        <path d="M60 14 L70 52 L108 60 L70 68 L60 106 L50 68 L12 60 L50 52 Z" fill="currentColor" opacity="0.92"/>
+      </svg>
+    </div>
+
+    <div class="wrap">
+      <div class="panel">
+        <h1 class="title">创 建 账 号</h1>
+        <p class="subtitle">加 入 提 瓦 特</p>
+
+        <form id="registerForm" autocomplete="off">
+          <div class="field">
+            <label class="label">账号</label>
+            <div class="input-line">
+              <span class="field-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z" fill="currentColor"/></svg></span>
+              <input type="text" id="username" placeholder="3-20 位字母/数字/下划线" />
+            </div>
+            <div class="hint" id="userHint"></div>
+          </div>
+
+          <div class="field">
+            <label class="label">密码</label>
+            <div class="input-line">
+              <span class="field-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z" fill="currentColor"/></svg></span>
+              <input type="password" id="password" placeholder="长度 6-15 位" />
+              <button type="button" class="toggle-pw" data-target="password">显示</button>
+            </div>
+            <div class="strength"><i id="strengthBar"></i></div>
+            <div class="hint" id="pwHint">密码长度需为 6-15 位</div>
+          </div>
+
+          <div class="field">
+            <label class="label">确认密码</label>
+            <div class="input-line">
+              <span class="field-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z" fill="currentColor"/></svg></span>
+              <input type="password" id="confirm" placeholder="再次输入密码" />
+            </div>
+            <div class="hint" id="cfHint"></div>
+          </div>
+
+          <div class="field">
+            <label class="label">验证码</label>
+            <div class="captcha-row">
+              <input type="text" id="captchaInput" placeholder="输入右侧字符" maxlength="4" />
+              <canvas id="captchaCanvas" class="captcha-canvas" title="点击刷新验证码"></canvas>
+            </div>
+            <div class="hint" id="capHint">点击图片可刷新验证码</div>
+          </div>
+
+          <div class="hint" id="regHint"></div>
+          <button class="btn" type="submit" id="regBtn" disabled>注 册</button>
+        </form>
+
+        <p class="switch">已有账号？<a href="/index.html">返回登录 →</a></p>
+      </div>
+    </div>
+
+    <script src="/js/link.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/fx.js"></script>
+    <script src="/js/captcha.js"></script>
+    <script src="/js/register.js"></script>
+  </body>
+</html>

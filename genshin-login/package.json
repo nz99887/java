@@ -1,0 +1,10 @@
+{
+  "name": "genshin-login",
+  "version": "1.0.0",
+  "description": "原神风格登录/注册站点（Canvas 验证码 + 密码 6-15 + scrypt 哈希）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
