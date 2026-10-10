@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 60px 20px;
+            background: #f5f6f8;
+            color: #26292e;
+        }
+        .card {
+            max-width: 360px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 32px 36px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+        h2 {
+            margin: 0 0 24px;
+            font-size: 20px;
+            color: #1d2129;
+            text-align: center;
+        }
+        .form-item {
+            margin-bottom: 16px;
+        }
+        .form-item label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 13px;
+            color: #86909c;
+        }
+        .form-item input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 9px 12px;
+            font-size: 14px;
+            border: 1px solid #dcdfe6;
+            border-radius: 6px;
+            outline: none;
+        }
+        .form-item input:focus {
+            border-color: #165dff;
+        }
+        button {
+            width: 100%;
+            margin-top: 8px;
+            padding: 10px 0;
+            font-size: 15px;
+            border: none;
+            border-radius: 6px;
+            background: #165dff;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0e42d2;
+        }
+        .error-msg {
+            margin-bottom: 16px;
+            padding: 9px 12px;
+            font-size: 13px;
+            border-radius: 6px;
+            background: #ffece8;
+            color: #f53f3f;
+            border: 1px solid #ffcdc9;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2>用户登录</h2>
+
+    <!-- 登录失败时由 Controller 传入 msg，例如「密码错误」。无该属性时不显示。 -->
+    <div class="error-msg" th:if="${msg}" th:text="${msg}">密码错误</div>
+
+    <form action="login" method="post">
+        <div class="form-item">
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username" required autofocus>
+        </div>
+        <div class="form-item">
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">登录</button>
+    </form>
+
+    <!-- 注册表单（默认隐藏，点击链接展开） -->
+    <details style="margin-top: 16px;">
+        <summary style="font-size: 13px; color: #86909c; cursor: pointer;">没有账号？注册新用户（密码 6-15 位）</summary>
+        <form action="register" method="post" style="margin-top: 12px;">
+            <div class="form-item">
+                <label for="reg-username">用户名（字母/数字/下划线 3-20 位）</label>
+                <input type="text" id="reg-username" name="username" required>
+            </div>
+            <div class="form-item">
+                <label for="reg-password">密码（6-15 位）</label>
+                <input type="password" id="reg-password" name="password" required>
+            </div>
+            <button type="submit" style="background: #00b42a;">注册</button>
+        </form>
+    </details>
+</div>
+</body>
+</html>

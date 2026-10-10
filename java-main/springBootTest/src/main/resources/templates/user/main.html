@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户主页</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6f8;
+            color: #26292e;
+        }
+        .card {
+            max-width: 520px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 32px 36px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        }
+        h2 {
+            margin: 0 0 6px;
+            font-size: 22px;
+            color: #1d2129;
+        }
+        .subtitle {
+            margin: 0 0 24px;
+            font-size: 13px;
+            color: #86909c;
+        }
+        .field {
+            display: flex;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f1f3;
+            font-size: 14px;
+        }
+        .field:last-of-type {
+            border-bottom: none;
+        }
+        .label {
+            width: 90px;
+            color: #86909c;
+            flex-shrink: 0;
+        }
+        .value {
+            color: #1d2129;
+            word-break: break-all;
+        }
+        .actions {
+            margin-top: 28px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        a.btn {
+            display: inline-block;
+            padding: 9px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            text-decoration: none;
+            background: #165dff;
+            color: #ffffff;
+        }
+        a.btn.ghost {
+            background: #f2f3f5;
+            color: #4e5969;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2>登录成功</h2>
+    <p class="subtitle">欢迎回来，以下是你本次登录提交的信息</p>
+
+    <div class="field">
+        <span class="label">用户名</span>
+        <span class="value" th:text="${username}">-</span>
+    </div>
+    <div class="field">
+        <span class="label">最后登录</span>
+        <span class="value" th:text="${lastLogin != null ? #temporals.format(lastLogin, 'yyyy-MM-dd HH:mm:ss') : '本次'}">-</span>
+    </div>
+    <div class="field">
+        <span class="label">应用名</span>
+        <span class="value" th:text="${@environment.getProperty('spring.application.name')}">-</span>
+    </div>
+    <div class="field">
+        <span class="label">当前端口</span>
+        <span class="value" th:text="${@environment.getProperty('server.port')}">-</span>
+    </div>
+
+    <div class="actions">
+        <a class="btn ghost" href="/">返回首页</a>
+        <a class="btn" href="/user/logout" style="background: #f53f3f;">退出登录</a>
+    </div>
+</div>
+</body>
+</html>
