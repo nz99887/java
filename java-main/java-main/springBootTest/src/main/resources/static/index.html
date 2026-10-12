@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 60px 20px;
+            background: #f5f6f8;
+            color: #26292e;
+        }
+        .card {
+            max-width: 460px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 36px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+        h2 {
+            margin: 0 0 8px;
+            font-size: 22px;
+            color: #1d2129;
+        }
+        .subtitle {
+            margin: 0 0 28px;
+            font-size: 13px;
+            color: #86909c;
+        }
+        .actions {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        a.btn {
+            display: inline-block;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-size: 14px;
+            text-decoration: none;
+            background: #165dff;
+            color: #ffffff;
+        }
+        a.btn:hover {
+            background: #0e42d2;
+        }
+        a.btn.ghost {
+            background: #f2f3f5;
+            color: #4e5969;
+        }
+        a.btn.ghost:hover {
+            background: #e5e6eb;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2>Hello World!</h2>
+    <p class="subtitle">springBootTest 示例应用</p>
+
+    <div class="actions">
+        <a class="btn" href="/user/to_login">登录</a>
+        <a class="btn ghost" href="/user/test">测试接口</a>
+    </div>
+</div>
+</body>
+</html>
