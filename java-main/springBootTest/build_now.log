@@ -1,0 +1,193 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.fenglin:springBootTest >---------------------
+[INFO] Building springBootTest 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot3-starter/3.5.7/mybatis-plus-spring-boot3-starter-3.5.7.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot3-starter/3.5.7/mybatis-plus-spring-boot3-starter-3.5.7.pom (3.9 kB at 5.5 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-dependencies/3.2.6/spring-boot-dependencies-3.2.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-dependencies/3.2.6/spring-boot-dependencies-3.2.6.pom (116 kB at 428 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/groovy/groovy-bom/4.0.21/groovy-bom-4.0.21.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/groovy/groovy-bom/4.0.21/groovy-bom-4.0.21.pom (27 kB at 62 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/infinispan/infinispan-bom/14.0.28.Final/infinispan-bom-14.0.28.Final.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/infinispan/infinispan-bom/14.0.28.Final/infinispan-bom-14.0.28.Final.pom (25 kB at 119 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/infinispan/infinispan-build-configuration-parent/14.0.28.Final/infinispan-build-configuration-parent-14.0.28.Final.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/infinispan/infinispan-build-configuration-parent/14.0.28.Final/infinispan-build-configuration-parent-14.0.28.Final.pom (24 kB at 104 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/glassfish/jersey/jersey-bom/3.1.6/jersey-bom-3.1.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/glassfish/jersey/jersey-bom/3.1.6/jersey-bom-3.1.6.pom (21 kB at 49 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.9/jetty-ee10-bom-12.0.9.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.9/jetty-ee10-bom-12.0.9.pom (9.2 kB at 46 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-bom/12.0.9/jetty-bom-12.0.9.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-bom/12.0.9/jetty-bom-12.0.9.pom (14 kB at 62 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-bom/1.9.24/kotlin-bom-1.9.24.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-bom/1.9.24/kotlin-bom-1.9.24.pom (9.1 kB at 41 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-bom/1.12.6/micrometer-bom-1.12.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-bom/1.12.6/micrometer-bom-1.12.6.pom (7.9 kB at 36 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-tracing-bom/1.2.6/micrometer-tracing-bom-1.2.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-tracing-bom/1.2.6/micrometer-tracing-bom-1.2.6.pom (4.5 kB at 9.7 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/netty/netty-bom/4.1.110.Final/netty-bom-4.1.110.Final.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/netty/netty-bom/4.1.110.Final/netty-bom-4.1.110.Final.pom (14 kB at 18 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/projectreactor/reactor-bom/2023.0.6/reactor-bom-2023.0.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/projectreactor/reactor-bom/2023.0.6/reactor-bom-2023.0.6.pom (4.8 kB at 22 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/amqp/spring-amqp-bom/3.1.5/spring-amqp-bom-3.1.5.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/amqp/spring-amqp-bom/3.1.5/spring-amqp-bom-3.1.5.pom (3.9 kB at 18 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/batch/spring-batch-bom/5.1.2/spring-batch-bom-5.1.2.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/batch/spring-batch-bom/5.1.2/spring-batch-bom-5.1.2.pom (3.2 kB at 16 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/data/spring-data-bom/2023.1.6/spring-data-bom-2023.1.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/data/spring-data-bom/2023.1.6/spring-data-bom-2023.1.6.pom (5.5 kB at 26 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-framework-bom/6.1.8/spring-framework-bom-6.1.8.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-framework-bom/6.1.8/spring-framework-bom-6.1.8.pom (5.8 kB at 23 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/integration/spring-integration-bom/6.2.5/spring-integration-bom-6.2.5.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/integration/spring-integration-bom/6.2.5/spring-integration-bom-6.2.5.pom (10 kB at 34 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/pulsar/spring-pulsar-bom/1.0.6/spring-pulsar-bom-1.0.6.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/pulsar/spring-pulsar-bom/1.0.6/spring-pulsar-bom-1.0.6.pom (2.7 kB at 5.7 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/security/spring-security-bom/6.2.4/spring-security-bom-6.2.4.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/security/spring-security-bom/6.2.4/spring-security-bom-6.2.4.pom (5.3 kB at 7.7 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/session/spring-session-bom/3.2.3/spring-session-bom-3.2.3.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/session/spring-session-bom/3.2.3/spring-session-bom-3.2.3.pom (2.9 kB at 14 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/ws/spring-ws-bom/4.0.11/spring-ws-bom-4.0.11.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/ws/spring-ws-bom/4.0.11/spring-ws-bom-4.0.11.pom (3.5 kB at 16 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/testcontainers/testcontainers-bom/1.19.8/testcontainers-bom-1.19.8.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/testcontainers/testcontainers-bom/1.19.8/testcontainers-bom-1.19.8.pom (10 kB at 52 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus/3.5.7/mybatis-plus-3.5.7.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus/3.5.7/mybatis-plus-3.5.7.pom (2.4 kB at 9.9 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-core/3.5.7/mybatis-plus-core-3.5.7.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-core/3.5.7/mybatis-plus-core-3.5.7.pom (2.4 kB at 12 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-annotation/3.5.7/mybatis-plus-annotation-3.5.7.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-annotation/3.5.7/mybatis-plus-annotation-3.5.7.pom (1.4 kB at 7.2 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/github/jsqlparser/jsqlparser/4.9/jsqlparser-4.9.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/github/jsqlparser/jsqlparser/4.9/jsqlparser-4.9.pom (27 kB at 119 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.5.16/mybatis-3.5.16.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.5.16/mybatis-3.5.16.pom (18 kB at 36 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis-parent/42/mybatis-parent-42.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis-parent/42/mybatis-parent-42.pom (50 kB at 195 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-extension/3.5.7/mybatis-plus-extension-3.5.7.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-extension/3.5.7/mybatis-plus-extension-3.5.7.pom (5.0 kB at 12 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.7/mybatis-plus-spring-boot-autoconfigure-3.5.7.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.7/mybatis-plus-spring-boot-autoconfigure-3.5.7.pom (3.1 kB at 16 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.pom
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.pom (3.2 kB at 16 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot3-starter/3.5.7/mybatis-plus-spring-boot3-starter-3.5.7.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot3-starter/3.5.7/mybatis-plus-spring-boot3-starter-3.5.7.jar (6.0 kB at 14 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus/3.5.7/mybatis-plus-3.5.7.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-core/3.5.7/mybatis-plus-core-3.5.7.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-annotation/3.5.7/mybatis-plus-annotation-3.5.7.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-extension/3.5.7/mybatis-plus-extension-3.5.7.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.5.16/mybatis-3.5.16.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus/3.5.7/mybatis-plus-3.5.7.jar (5.8 kB at 19 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/github/jsqlparser/jsqlparser/4.9/jsqlparser-4.9.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-extension/3.5.7/mybatis-plus-extension-3.5.7.jar (266 kB at 541 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.7/mybatis-plus-spring-boot-autoconfigure-3.5.7.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-core/3.5.7/mybatis-plus-core-3.5.7.jar (363 kB at 639 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-annotation/3.5.7/mybatis-plus-annotation-3.5.7.jar (19 kB at 32 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.7/mybatis-plus-spring-boot-autoconfigure-3.5.7.jar (51 kB at 69 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/github/jsqlparser/jsqlparser/4.9/jsqlparser-4.9.jar (977 kB at 834 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.5.16/mybatis-3.5.16.jar (1.8 MB at 1.3 MB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar (2.6 MB at 985 kB/s)
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ springBootTest ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ springBootTest ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ springBootTest ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 12 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ springBootTest ---
+[INFO] skip non existing resourceDirectory C:\Users\Administrator\Desktop\java-main\springBootTest\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ springBootTest ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ springBootTest ---
+[INFO] Artifact org.apache.maven.resolver:maven-resolver-util:jar:1.4.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases)]
+[INFO] Artifact org.apache.maven.resolver:maven-resolver-api:jar:1.4.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases), nexus-163 (http://mirrors.163.com/maven/repository/maven-public/, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases)]
+[INFO] Artifact org.apache.maven.resolver:maven-resolver-util:jar:1.4.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases)]
+[INFO] Artifact org.apache.maven.resolver:maven-resolver-api:jar:1.4.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases), nexus-163 (http://mirrors.163.com/maven/repository/maven-public/, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases)]
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar (172 kB at 567 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar (26 kB at 67 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar (14 kB at 31 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar (118 kB at 263 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar (0 B at 0 B/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar (0 B at 0 B/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-java/1.4.0/plexus-java-1.4.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar (0 B at 0 B/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar (312 kB at 511 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar (8.2 kB at 11 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-java/1.4.0/plexus-java-1.4.0.jar (57 kB at 72 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar (353 kB at 374 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar (2.9 MB at 1.2 MB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ springBootTest ---
+[INFO] Building jar: C:\Users\Administrator\Desktop\java-main\springBootTest\target\springBootTest-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.4.5:repackage (repackage) @ springBootTest ---
+[INFO] Artifact org.sonatype.plexus:plexus-build-api:jar:0.0.7 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases)]
+[INFO] Artifact org.sonatype.plexus:plexus-build-api:jar:0.0.7 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (http://maven.aliyun.com/nexus/content/groups/public/, default, releases)]
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-buildpack-platform/3.4.5/spring-boot-buildpack-platform-3.4.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-buildpack-platform/3.4.5/spring-boot-buildpack-platform-3.4.5.jar (300 kB at 733 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar (1.1 MB at 1.1 MB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar (1.4 MB at 1.2 MB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar (910 kB at 739 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar (909 kB at 737 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar (242 kB at 162 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-loader-tools/3.4.5/spring-boot-loader-tools-3.4.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar (157 kB at 98 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (0 B at 0 B/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-observation/1.14.5/micrometer-observation-1.14.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (20 kB at 12 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-commons/1.14.5/micrometer-commons-1.14.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar (1.9 MB at 1.1 MB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar (338 kB at 190 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm/9.5/asm-9.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-observation/1.14.5/micrometer-observation-1.14.5.jar (75 kB at 36 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/io/micrometer/micrometer-commons/1.14.5/micrometer-commons-1.14.5.jar (48 kB at 22 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar (147 kB at 66 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm/9.5/asm-9.5.jar (122 kB at 52 kB/s)
+[INFO] Downloading from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-loader-tools/3.4.5/spring-boot-loader-tools-3.4.5.jar (465 kB at 198 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar (72 kB at 29 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar (52 kB at 20 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar (233 kB at 85 kB/s)
+[INFO] Downloaded from aliyunmaven: http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar (484 kB at 175 kB/s)
+[INFO] Replacing main artifact C:\Users\Administrator\Desktop\java-main\springBootTest\target\springBootTest-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\Administrator\Desktop\java-main\springBootTest\target\springBootTest-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.405 s
+[INFO] Finished at: 2026-10-16T15:44:02+08:00
+[INFO] ------------------------------------------------------------------------
